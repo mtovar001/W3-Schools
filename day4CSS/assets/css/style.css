@@ -1,4 +1,3 @@
-<!--how to target anything like background; color, font, etc, use "Body" or "*" However, Body is more accurate as it will target the elements that we don't see. However, -->
 Body {
-    background-color'
+    background-color: gray'
 }
