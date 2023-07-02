@@ -1,9 +1,13 @@
 body {
     background-color:cadetblue;
+    margin: 25px;
+    
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    font-size: large;
+h1 {
+    color: skyblue;
+}
+
+p {
+    color: darkgray;
 }
