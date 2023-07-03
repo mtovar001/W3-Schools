@@ -13,6 +13,33 @@ h3 {
     font-style: italic;
 }
 p {
-    color: darkgray;
+    color:blueviolet;
 
+}
+
+/*Combinators Selector*/
+/*this is how you style all the p under div*/
+div p{
+    background-color: chartreuse;
+}
+/*this is how you style all the children under div*/
+div > p {
+    color: rgba(51, 28, 28, 0.767);
+}
+/*this is how you style all the first paragraphs under div*/
+div + p {
+    font-family: cursive;
+    color:crimson
+}
+
+/*this is how you comment in CSS*/
+/*sudo element*/
+a:hover{
+    font-size: larger;
+    brackground-color: white;
+}
+
+. p{
+    background-position: 10px;
+    color:black
 }
