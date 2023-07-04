@@ -9,4 +9,14 @@ h1 {
 }
 #para1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+}
+p {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.div1{
+    background-color: brown;
+    font-size:x-large
 }
