@@ -7,10 +7,12 @@ h1 {
     box-sizing: border-box;
     margin: 0
 }
-#p.para1 {
+#para1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:blue;
-}
+    border:2px solid violet;
+    border-end-end-radius: 5px;
+    }
 p {
     font-style: italic;
     font-size: 30px;
@@ -19,4 +21,32 @@ p {
 .div1{
     background-color: brown;
     font-size:x-large
+}
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+/* styles.css */
+#float-example {
+    float: right;
+    margin-left: 15px;
+}
+#float-ex, #float-ex2, #float-ex3 {
+    float: left;
+    padding: 15px;
+}
+
+.div1 {
+    background: red;
+}
+
+.div2 {
+    background: yellow;
+}
+
+.div3 {
+    background: green;
 }
