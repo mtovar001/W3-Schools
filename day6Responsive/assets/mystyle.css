@@ -1,26 +1,37 @@
 
   /*This is to style the header*/
-  body {
-      margin: 0px;
+ .container {
+    display: grid;
+    min-width: 100px;
+    grid-template-rows: 10% 60% 70%; 
+    margin: 0px;
+       
   }
 
-  
-  img {
-    float: left;
-    padding-right: 20px;
-    width: 45px;
-    height: 45px; 
-      }
-  .header {
-    border: 1px solid #d3d3d3;  
-    
+  @media screen and (max-width: 600px) {
+    .container{
+        grid-template-rows: 100%;
     }
+  }
   
-  h1 {
+    .header {
+    border: 1px solid #d3d3d3;
+    background-color: azure; 
+    
+        
+    }
+    img {
+        float: left;
+        padding-right: 20px;
+        width: 45px;
+        height: 45px; 
+          }   
+  
+   h1 {
        font-size:x-large;
- }
+  }
  
- input[type=signup] {
+   input[type=signup] {
     border: none;
     color: gray;    
     text-decoration: none;
@@ -28,23 +39,27 @@
     width: 45px;
     height: fit-content;
     float: right;     
- }
+   }
 
- input[type=signup]:hover{
+   input[type=signup]:hover{
     background-color: lightgray;
     opacity:calc(2);
-}
- .signup {
+    }
+   .signup {
     margin-top: 0px;
- }
+    }
      
 
 /*form style*/
+.loginoptions {
+    background-color: aquamarine;
+    padding-left: 800px
+}
 .section{
     font-size: 20px;
     border-style: solid lightgray;
     padding-bottom: 20px; 
-    padding-left: 550px
+    
     }
 
 input{
@@ -100,7 +115,7 @@ input[type=email] {
     color: white;
     padding: 10px 10px;
     text-decoration: none;
-    margin: 4px 6px;
+    
     cursor: pointer;
     text-align: center;
     width: 265px;
@@ -112,17 +127,17 @@ input[type=email] {
  }
  
  /*Style of the footer*/
- #footer {
+ .footer {
      background-color: black;
      color:white;
      height: 50px;
      padding-top: 30px;
-     padding-bottom: 230px;
+     padding-bottom: 500px;
      text-align: center;
  }
 
 table {
-    width: 50%;
+    width: 100%;
     padding-left: 300px;
     padding-right: 25px;
    
