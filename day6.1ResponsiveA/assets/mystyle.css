@@ -10,11 +10,27 @@
     grid-template-row: 20%
       
 }
-@media screen and (max-width: 500px) {
-    .header {
+/*for mobile phones*/
+@media screen and (min-width: 200px) {
+    .container {
+    grid-template-rows:  100%;
+    background: red
+    }   
+}
+
+/*for tablets*/
+@media screen and (min-width: 600px){
+   .container {
     grid-template-rows: 100%;
-    }
-       
+    background-color: blue;
+}
+}
+/*for desktops*/
+@media screen and (min-width: 900px){
+    .container {
+    grid-template-rows: 100%;
+    background-color: bisque;
+ }
 }
 
     img {
@@ -57,20 +73,12 @@
     
 }
 
-@media screen and (max-width:500px){
-    .loginoptions {
-        grid-template-rows: 100%;
-    }
-    
-}
 .section{
     font-size: 20px;
     border-style: solid lightgray;
     padding-bottom: 20px; 
     
     }
-
-
 
 button[type=google], button[type=apple] {
     background-color: white;
@@ -138,8 +146,7 @@ input[type=email] {
     border: none;
     color: white;
     padding: 10px 10px;
-    text-decoration: none;
-    
+    text-decoration: none;    
     cursor: pointer;
     text-align: center;
     width: 265px;
@@ -162,13 +169,7 @@ input[type=email] {
      grid-template-rows: 100%;
      
  }
-
- @media screen and (max-width:500px) {
-    .footer {
-        grid-template-rows: 100%;
-    }
-    
- }
+ 
 
 table {
     width: 100%;
